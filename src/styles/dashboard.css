@@ -1,0 +1,189 @@
+/* ---------- Global Container ---------- */
+.container {
+  max-width: 780px;
+  margin: 50px auto;
+  padding: 25px;
+  animation: fadeIn 0.4s ease-in;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navbar h2 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- Heading ---------- */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* ---------- Input Section ---------- */
+.task-input {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--accent);
+}
+
+/* ---------- Buttons ---------- */
+button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* ---------- Stats Section ---------- */
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-card {
+  flex: 1;
+  background: var(--card);
+  padding: 22px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 26px;
+  color: var(--accent);
+}
+
+.stat-card p {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* ---------- Task Cards ---------- */
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--card);
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Left side (checkbox + text) */
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Checkbox */
+.task-check {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.task-check.checked {
+  color: var(--accent);
+}
+
+/* Task text */
+.task-text {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  color: #ef4444;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+
+/* ---------- AI + About Cards ---------- */
+.about,
+.ai-box {
+  margin-top: 30px;
+  padding: 18px;
+  background: var(--card);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.ai-text {
+  margin-top: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ---------- Animations ---------- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Global Smoothness ---------- */
+* {
+  transition: all 0.2s ease-in-out;
+}

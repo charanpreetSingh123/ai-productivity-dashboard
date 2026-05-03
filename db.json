@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "text": "ho",
+      "completed": false,
+      "id": "8N87-amlSSY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
