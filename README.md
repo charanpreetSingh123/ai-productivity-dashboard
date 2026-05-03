@@ -43,8 +43,35 @@ Tools:
 
 ## 📁 Project Structure
 
-ai-productivity-dashboard/ │ ├── public/ ├── src/ │   ├── components/ │   │   ├── Navbar.jsx │   │   ├── TaskInput.jsx │   │   ├── TaskList.jsx │   │   ├── DashboardStats.jsx │   │   ├── AISuggestions.jsx │   │   └── About.jsx │   │ │   ├── pages/ │   │   └── Home.jsx │   │ │   ├── services/ │   │   └── api.js │   │ │   ├── styles/ │   │   ├── main.css │   │   ├── dashboard.css │   │   └── theme.css │   │ │   ├── App.js │   └── index.js │ ├── db.json ├── package.json └── README.md
-
+ai-productivity-dashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── TaskInput.jsx
+│   │   ├── TaskList.jsx
+│   │   ├── DashboardStats.jsx
+│   │   ├── AISuggestions.jsx
+│   │   └── About.jsx
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── styles/
+│   │   ├── main.css
+│   │   ├── dashboard.css
+│   │   └── theme.css
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── db.json
+├── package.json
+└── README.md
 ---
 
 ## ⚙️ Installation & Setup
@@ -60,6 +87,9 @@ npm install
 
 ### 4. Run backend (JSON Server)
 json-server --watch db.json --port 5000
+
+### 5. Run frontend
+npm start
 
 ---
 
@@ -83,10 +113,6 @@ json-server --watch db.json --port 5000
 - Simulates real-world productivity tools
 
 ---
-## ⚙️ Available Scripts
-
-- npm start → Run frontend  
-- npm run build → Production build  
 
 ## 🚀 Future Improvements
 
@@ -110,3 +136,5 @@ Charanpreet Singh
 ## ⭐ Contributing
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+---
