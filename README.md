@@ -72,7 +72,6 @@ ai-productivity-dashboard/
 ├── db.json
 ├── package.json
 └── README.md
----
 
 ## ⚙️ Installation & Setup
 
