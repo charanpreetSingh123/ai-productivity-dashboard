@@ -2,7 +2,7 @@
 
 A modern full-stack web application designed to help users manage daily tasks efficiently while providing intelligent productivity insights. The project combines task management, dashboard analytics, and a rule-based recommendation system to encourage better productivity habits. It demonstrates practical implementation of React components, REST API integration, state management, and responsive UI design.
 
-⸻
+---
 
 🚀 Features
 
@@ -13,7 +13,7 @@ A modern full-stack web application designed to help users manage daily tasks ef
 * 🎨 Responsive User Interface – Optimized for different screen sizes with smooth transitions and a clean design.
 * 🧩 Component-Based Architecture – Built using reusable React components for maintainability and scalability.
 
-⸻
+---
 
 🧠 AI Suggestion System
 
@@ -27,7 +27,7 @@ Current Behaviors
 
 This feature demonstrates how simple decision-making logic can be used to create an intelligent and interactive user experience.
 
-⸻
+---
 
 🏗️ Tech Stack
 
@@ -48,7 +48,7 @@ Development Tools
 * GitHub
 * Visual Studio Code
 
-⸻
+---
 
 📁 Project Structure
 
@@ -84,7 +84,7 @@ ai-productivity-dashboard/
 └── README.md
 </pre>
 
-⸻
+---
 
 ⚙️ Installation & Setup
 
@@ -110,7 +110,7 @@ npm start
 
 The application will be available locally in your browser after both the frontend and backend servers are running.
 
-⸻
+---
 
 🌐 API Endpoints
 
@@ -120,7 +120,7 @@ POST	/tasks	Create a new task
 PUT	/tasks/:id	Update an existing task
 DELETE	/tasks/:id	Remove a task
 
-⸻
+---
 
 🎯 Key Highlights
 
@@ -131,7 +131,7 @@ DELETE	/tasks/:id	Remove a task
 * Demonstrates practical frontend-backend communication workflows.
 * Follows modern web development practices and clean code principles.
 
-⸻
+---
 
 🚀 Future Improvements
 
@@ -143,13 +143,13 @@ DELETE	/tasks/:id	Remove a task
 * Productivity tracking analytics with weekly and monthly reports.
 * Notification and reminder system for pending tasks.
 
-⸻
+---
 
 👨‍💻 Author
 
 Charanpreet Singh
 
-⸻
+---
 
 ⭐ Contributing
 
