@@ -1,4 +1,4 @@
-#⚡ AI Productivity Dashboard
+# ⚡ AI Productivity Dashboard
 
 A modern full-stack web application designed to help users manage daily tasks efficiently while providing intelligent productivity insights. The project combines task management, dashboard analytics, and a rule-based recommendation system to encourage better productivity habits. It demonstrates practical implementation of React components, REST API integration, state management, and responsive UI design.
 
