@@ -1,10 +1,10 @@
-⚡ AI Productivity Dashboard
+#⚡ AI Productivity Dashboard
 
 A modern full-stack web application designed to help users manage daily tasks efficiently while providing intelligent productivity insights. The project combines task management, dashboard analytics, and a rule-based recommendation system to encourage better productivity habits. It demonstrates practical implementation of React components, REST API integration, state management, and responsive UI design.
 
 ---
 
-🚀 Features
+##🚀 Features
 
 * 📝 Task Management – Create, delete, and mark tasks as completed through an intuitive user interface.
 * 📊 Real-Time Dashboard Statistics – Monitor total, completed, and pending tasks with automatically updated metrics.
@@ -15,7 +15,7 @@ A modern full-stack web application designed to help users manage daily tasks ef
 
 ---
 
-🧠 AI Suggestion System
+##🧠 AI Suggestion System
 
 The dashboard includes a rule-based productivity recommendation engine that analyzes task activity and generates contextual suggestions for the user.
 
@@ -29,7 +29,7 @@ This feature demonstrates how simple decision-making logic can be used to create
 
 ---
 
-🏗️ Tech Stack
+##🏗️ Tech Stack
 
 Frontend
 
@@ -50,7 +50,7 @@ Development Tools
 
 ---
 
-📁 Project Structure
+##📁 Project Structure
 
 <pre>
 ai-productivity-dashboard/
@@ -86,7 +86,7 @@ ai-productivity-dashboard/
 
 ---
 
-⚙️ Installation & Setup
+##⚙️ Installation & Setup
 
 1. Clone the Repository
 
@@ -112,7 +112,7 @@ The application will be available locally in your browser after both the fronten
 
 ---
 
-🌐 API Endpoints
+##🌐 API Endpoints
 
 Method	Endpoint	Description
 GET	/tasks	Retrieve all available tasks
@@ -122,7 +122,7 @@ DELETE	/tasks/:id	Remove a task
 
 ---
 
-🎯 Key Highlights
+##🎯 Key Highlights
 
 * Developed using a scalable component-based React architecture.
 * Implemented complete CRUD functionality through REST API integration.
@@ -133,7 +133,7 @@ DELETE	/tasks/:id	Remove a task
 
 ---
 
-🚀 Future Improvements
+##🚀 Future Improvements
 
 * Integration with OpenAI or Gemini APIs for advanced AI-generated recommendations.
 * User authentication and personalized task management.
@@ -145,9 +145,9 @@ DELETE	/tasks/:id	Remove a task
 
 ---
 
-👨‍💻 Author
+##👨‍💻 Author
 
-Charanpreet Singh
+###Charanpreet Singh
 
 ---
 
