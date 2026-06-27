@@ -1,6 +1,5 @@
-<p align="center">
-  # *⚡ AI Productivity Dashboard *
-</p>
+# ⚡ AI Productivity Dashboard 
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
