@@ -1,5 +1,5 @@
 <p align="center">
-# ⚡ AI Productivity Dashboard
+  # ⚡ AI Productivity Dashboard
 </p>
 
 <p align="center">
